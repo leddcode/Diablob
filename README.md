@@ -7,7 +7,7 @@ Scrape all the blobs URLs from an open Azure Blob Container.
 ### Installation
 
 ```sh
-git clone [https://github.com/leddcode/Oculus.git](https://github.com/leddcode/Diablob.git)
+git clone [https://github.com/leddcode/Diablob.git](https://github.com/leddcode/Diablob.git)
 cd ./Diablob
 pip install -r requirements.txt
 ```
