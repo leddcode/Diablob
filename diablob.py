@@ -18,7 +18,7 @@ class AzureContainer:
         self.directory = self.create_output_directory()
 
     def create_output_directory(self):
-        directory = f'Blobs{int(time.time())}'
+        directory = f'results/blobs{int(time.time())}'
         if not os.path.exists(directory):
             os.makedirs(directory)
         return directory
